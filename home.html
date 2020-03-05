@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<style>
+
+</style>
+<body>
+
+    <!-- navbar -->
+     <nav class="navbar navbar-toggleable-md bg-primary navbar-inverse font-weight-bold">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                  
+                 
+                 <!--   <a class="nav-item nav-link" >Studnets</a> -->
+     <a class="nav-item nav-link" href="student.html">Students</a>
+<!--
+     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Students
+      </a>
+     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      
+        <a class="dropdown-item " href="#">For class 10</a>
+        <a class="dropdown-item" href="#">For class 12</a>
+        <a class="dropdown-item" href="#">Graduation</a>
+           <a class="dropdown-item" href="#">Afer Graduation</a>
+     
+      </div>
+-->
+
+     <a class="nav-item nav-link" href="#">FAQs</a>
+	 <a class="nav-item nav-link" href="parent.html">Parents</a>
+ <!-- <a class="nav-item nav-link" href="#">Contact</a>  -->
+ 
+     
+        </div>
+  </div>
+  </div>
+ 
+
+   
+  <span><button type="button" class="btn btn-light col md-4" data-toggle="modal" ><a class="btn " href="tel:+918800442358" role="button">+91 8800442358</a></a></button>
+   </span>
+  <p>  </p>
+  <span><button type="button" class="btn btn-light col md-4" data-toggle="modal" data-target="#mymodal" ><a class="btn " href="#" role="button" data-target="#mymodal">Log In</a></a></button>
+   </span>
+   <p> </p>
+  <span><button type="button" class="btn btn-light col md-4" data-toggle="modal" data-target="#myModal" style="margin-left:10px"><a class="btn " href="#" role="button" data-target="#myModal" >Sign In</a></a></button>
+   </span>
+  
+   
+	<form action="connect.php" method="POST">
+			 <div class="modal fade" id="myModal">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+
+				  <!-- Modal Header -->
+				  <div class="modal-header">
+					<h4 class="modal-title">Create Account</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				  </div>
+
+				  <!-- Modal body -->
+				  <div class="modal-body">
+					 Email
+			   <br>
+					<input type="email" class="form-control" name="email" placeholder="Enter your Email">
+			   Password
+			   <br>
+					<input type="password" class="form-control" name="password" placeholder="Enter password">
+					 Confirm Password
+			   <br>
+					<input type="password" class="form-control" name="confirm" placeholder="Confirm Password">
+				   
+				  </div>
+				   
+				 
+			   
+			   
+
+				  <!-- Modal footer -->
+				  <div class="modal-footer">
+						 <button type="submit" class="btn btn-success" value="signin" name="signin" >Sign-In</button>
+				   
+				  </div>
+
+				</div>
+			  </div>
+			</div>
+			
+        </form>
+		
+		 <form action="login.php" method="POST">
+
+			   <div class="modal fade" id="mymodal">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+
+				  <!-- Modal Header -->
+				  <div class="modal-header">
+					<h4 class="modal-title">Log-In</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				  </div>
+
+				  <!-- Modal body -->
+				  <div class="modal-body">
+					 Email
+			   <br>
+					<input type="email" class="form-control" name="" placeholder="Enter your Email">
+			   Password
+			       <input type="password" class="form-control" name="password" placeholder="Enter password">
+			   <br>
+			   
+				   
+				  </div>
+			   
+			   
+
+				  <!-- Modal footer -->
+				  <div class="modal-footer">
+						 <button type="submit" class="btn btn-success "  value="submit" name="login" >Log In</button>
+				   
+				  </div>
+
+				</div>
+			  </div>
+			</div>
+       </form>
+			   
+
+
+
+ </nav>
+ 
+    <!-- end navbar -->
+ <br>
+ <!-- Slides -->
+ 
+
+ <!-- end of slides -->
+
+ 
+
+ 
+   <div class="container float-left" style="width:700px ; height:400px">
+   <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel" align="center" style="width:640" height="360">
+    <div class="carousel-inner" >
+   <div class="carousel-item active" data-interval="500">
+     <img src="https://blog.isbmuniversity.edu.in/wp-content/uploads/2019/03/career-counselling.jpg" class="img" alt="Responsive image" width="640" height="360">
+   </div>
+   <div class="carousel-item" data-interval="500">
+     <img src="https://aadicareercentre.com/wp-content/uploads/2019/07/CA.jpg" class="img" alt="Responsive image" width="640" height="360">
+   </div>
+   <div class="carousel-item">
+     <img src="https://cpfooddigest.files.wordpress.com/2014/10/counseling.gif" class="img" alt="Responsive image"width="640" height="360">
+   </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only" >Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="sr-only" >Next</span>
+    </a>
+  </div>
+   </div>
+
+  
+  <div >
+    <i>
+  <h2 style="color:blue ; height:360;padding-top:30px">Confused of what to do ahead in life ?<br><br>
+    <br>Which stream to take afte 12?<br><br><br>Which path to lead after graduation?
+
+</h2>
+</i>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="jumbotron jumbotron-fluid  bg-white text-white">
+<div class="container">
+
+
+<h2 class="display-3" style="color:red">Here is what we will provide you....</h2>
+
+<b>
+<ul>
+  <li type="square" style="color:red">
+<h3 class="lead "style="padding: 10px ;color:red" > <i>tests
+</li>
+</h3>
+<li type="square" style="color:red">
+<h3 class="lead" style="padding: 10px;color:red"> Experienced mentors' help
+
+</h3>
+</li>
+<li type="square" style="color:red">
+<h3 class="lead" style="padding: 10px;color:red">  Success stories 
+</h3>
+</i>
+</li>
+</ul>
+</b>
+
+
+
+</div>
+</div>
+
+<br>
+<br>
+
+
+     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/-VasGrFLqW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>-->
+  <br>
+  <br>
+  <div class="jumbotron jumbotron-fluid  bg-info text-white">
+<div class="container">
+
+
+<h2 class="display-3">WHAT IS COUNSELLING?</h2>
+<b>
+<ul>
+  <li>
+<h3 class="lead "style="padding: 10px" > <i>The process that occurs when a client and counsellor set aside time to explore difficulties which may include the stressful or emotional feelings of the client.
+</li>
+</h3>
+<li>
+<h3 class="lead" style="padding: 10px"> The act of helping the client to see things more clearly, possibly from a different view-point. This can enable the client to focus on feelings, experiences or behaviour, with a goal of facilitating positive change.
+
+</h3>
+</li>
+<li>
+<h3 class="lead" style="padding: 10px"> A relationship of trust. Confidentiality is paramount to successful counselling. Professional counsellors will usually explain their policy on confidentiality. They may, however, be required by law to disclose information if they believe that there is a risk to life.
+</h3>
+</i>
+</li>
+</ul>
+</b>
+  </div>
+
+</div>
+
+
+
+  <br>-->
+  <br>
+  <br>
+  <div class="jumbotron jumbotron-fluid  bg-info text-white">
+<div class="container">
+
+
+<h2 class="display-3">WHO ARE THE COUNSELLORS?</h2>
+<b>
+<ul>
+  <li>
+<h3 class="lead "style="padding: 10px" > <i>Work with individuals, groups and communities to improve mental health
+</li>
+</h3>
+
+<li>
+<h3 class="lead" style="padding: 10px"> Encourage clients to discuss emotions and experiences
+</h3>
+</li>
+
+<li>
+<h3 class="lead" style="padding: 10px"> Work with families
+</h3>
+</li>
+
+<li>
+  <h3 class="lead" style="padding: 10px">
+
+Help clients define goals, plan action and gain insight
+</h3>
+</li>
+
+<li>
+  <h3 class="lead" style="padding: 10px">
+Develop therapeutic processes
+</h3>
+</li>
+
+
+<li>
+  <h3 class="lead" style="padding: 10px">
+Refer clients to psychologists and other services
+</h3>
+</li>
+
+
+<li>
+  <h3 class="lead" style="padding: 10px">
+Take a holistic (mind and body) approach to mental health care
+</h3>
+</li>
+
+
+</i>
+</li>
+</ul>
+</b>
+  </div>
+
+</div>
+
+
+
+<br>
+<br><br><br><br><br>
+<center>
+  <iframe  width="600" height="315" src="https://www.youtube.com/embed/Vjy0Y5Y4Do4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center"></iframe>
+</center>
+   
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+
+<center>
+        <table border=0 align="center" >
+                <tr>
+                        <td style="padding-left:10px">
+                          
+             <div class="card border-primary mb-3" style="max-width: 18rem; padding:65px;">
+  <div class="card-body text-primary">
+    <h5 class="card-title">Paresh Kulkarni
+      <br>(student)</h5>
+    <p class="card-text">Career guidance made it very simple and easy to select stream</p>
+  </div>
+</div>
+
+            </td>
+            <td>
+              <div class="card border-primary mb-3" style="max-width: 18rem; padding:60px;">
+  <div class="card-body text-sucess">
+    <h5 class="card-title">Ankita Shah
+      <br>(Student)</h5>
+    <p class="card-text">Me and my dad found it very easy to select stream after 12,tnks to career guidance</p>
+  </div>
+</div>
+
+    
+          
+            </td>
+             <td>
+            
+              
+            
+               <div class="card border-primary mb-3" style="max-width: 18rem; padding:40px; ">
+  <div class="card-body text-danger">
+    <h5 class="card-title">Rachna Sharma
+      <br>(mother)</h5>
+    <p class="card-text">The session was very good.Both my child and I got clarity about the careers;each career was explained to us properly in detail.. </p>
+  </div>
+</div>
+
+
+              
+            </td>
+          </div>
+
+
+
+
+
+
+
+ </tr>
+ </table>
+</center>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+
+</html
